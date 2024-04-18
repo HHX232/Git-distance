@@ -1,3 +1,11 @@
+//slider
+var swiper = new Swiper(".descrSwiper", {
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+ 
 //переключение форм
 const formInCome = document.querySelector('.header__form-in') // форма для входа
 const formRegistration = document.querySelector('.header__form-registr') // форма для регистрации/восстановления
@@ -27,3 +35,5 @@ burgerIcon.addEventListener('click', () => {
    burgerBox.classList.toggle("languages__burger--active")
    burgerContent.classList.toggle("burger__menu--active")
 })
+
+
