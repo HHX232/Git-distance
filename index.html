@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Description</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inter:wght@100..900&family=Ruslan+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
@@ -30,13 +34,21 @@
             </nav>
             <ul class="languages__list">
                 
-                <li class="languages__list-item languages__burger  "> <img src="./img/mini_menu.svg" alt="" class="burger__img">
+                
+
+                <li class="languages__list-item languages__burger  ">
+                    <picture class="burger__img">
+                        <source srcset="./img/mini_menu.svg" type="image/svg+xml">
+                        <source srcset="./img/mini_menu.webp" type="image/webp">
+                        <img src="./img/mini_menu.png" alt="burger-icon">                  
+                    </picture>
                     <!-- languages__burger--active -->
                 <ul class="burger__menu ">
+                    
                     <!-- burger__menu--active -->
                     <li class="burger__menu-item"><a href="#" class="burger__menu-link">Главная</a></li>
                     <li class="burger__menu-item"><a href="#" class="burger__menu-link">Форум</a></li>
-                    <li class="burger__menu-item"><a href="#" class="burger__menu-link">Описание</a></li>
+                    <li class="burger__menu-item"><a href="/Description.html" class="burger__menu-link">Описание</a></li>
                     <li class="burger__menu-item"><a href="#" class="burger__menu-link">Поддержка</a></li>
                     <li class="burger__menu-item"><a href="#" class="burger__menu-link">Медиа</a></li>
                     <li class="burger__menu-item burger__link-registration"><a href="#" class="burger__menu-link ">Регистрация</a></li>
@@ -57,7 +69,8 @@
 
             </div>
             <div class="img__container">
-                <img src="./img/bg2 1.png" alt="" class="header__bg">
+                
+                <img src="./img/bg2-1.webp" alt="" class="header__bg">
 
                 <form class="header__form header__form-in">
                     <h2 class="form__title">Добро пожаловать!</h2>

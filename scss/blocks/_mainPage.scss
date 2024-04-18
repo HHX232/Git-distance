@@ -20,7 +20,8 @@ body{
    overflow-y: hidden;
 }
 .header__bg{
-   position: absolute;
+
+position: absolute;
    content: "";
    top: 50%;
    left: 50%;
@@ -348,6 +349,11 @@ height: calc(100% + 2px);
    top: -0.5vh;
    z-index: -1;
    transition: opacity .3s;
+
+   &-item{
+      z-index: 5;
+   }
+   
 }
 .burger__menu--active {
    display: flex;
