@@ -23,18 +23,7 @@ body{
    overflow-y: hidden;
 }
 .header__bg{
-//    position: absolute;
-//    content: "";
-//    top: 0;
-//    left: 50%;
-//    transform: translateX(-50%);
-//    height: 100%;
-//    width: 100%;
-//    min-width: 1024px;
-//    aspect-ratio: 1/1;
-// max-width: 1024px;
-// z-index: -1;
-// object-fit: cover;
+
 position: absolute;
    content: "";
    top: 0;
@@ -358,6 +347,10 @@ height: calc(100% + 2px);
    top: -0.5vh;
    z-index: -1;
    transition: opacity .3s;
+
+   &-item{
+      z-index: 5;
+   }
 }
 .burger__menu--active {
    display: flex;

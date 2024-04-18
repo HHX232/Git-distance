@@ -478,6 +478,9 @@ body {
   z-index: -1;
   transition: opacity 0.3s;
 }
+.burger__menu-item {
+  z-index: 5;
+}
 
 .burger__menu--active {
   display: flex;
