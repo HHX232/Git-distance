@@ -5,3 +5,5 @@ var swiper = new Swiper(".descrSwiper", {
      prevEl: ".swiper-button-prev",
    },
  });
+
+ 
