@@ -6,7 +6,6 @@
   border: none;
 }
 
-
 *,
 *::before,
 *::after {
@@ -544,9 +543,9 @@ body {
 .description__img {
   position: absolute;
   content: "";
-  top: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
   height: 95vh;
   max-width: 1024px;
