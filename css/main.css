@@ -255,6 +255,14 @@ body {
   width: 100%;
 }
 
+.form__box {
+  max-width: 235px;
+}
+
+.heager__input-label {
+  font-size: 16px !important;
+}
+
 .footer__links {
   font-family: "Inter", sans-serif;
   font-size: 12px;
@@ -272,6 +280,7 @@ body {
   font-family: "Caveat Brush";
   color: #6F4A36;
   font-size: 12px;
+  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
 }
@@ -329,7 +338,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  max-width: 280px;
+  max-width: 230px;
   flex-direction: column;
   align-items: center;
 }
@@ -338,6 +347,14 @@ body {
   font-size: 20px;
   color: #6F4A36;
   margin-bottom: 5px;
+}
+
+.input__in-box {
+  margin-left: auto;
+}
+
+.input__in-box--battons {
+  margin-left: 0 !important;
 }
 
 .input__in-box--input, .input__reg-box--input {
@@ -369,7 +386,7 @@ body {
 }
 
 .heager__input-label, .heager__reg-label {
-  font-size: 18px;
+  font-size: 16px;
   color: #6F4A36;
 }
 
@@ -387,6 +404,7 @@ body {
 }
 
 .form__in-create, .form__in-come, .form__reg-back, .form__reg-registration {
+  max-width: -moz-fit-content;
   max-width: fit-content;
   border-radius: 15px;
   box-shadow: 0px 4px 10px 0px rgb(111, 74, 54);
@@ -490,7 +508,9 @@ body {
   gap: 5px;
   font-size: 18px;
   font-family: "Ruslan Display", serif;
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   pointer-events: all;
   opacity: 1;
@@ -504,6 +524,16 @@ body {
   margin-top: 7px;
 }
 
+@media (max-height: 900px) {
+  .form__in-create, .form__in-come {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .form__in-create, .form__in-come {
+    font-size: 16px !important;
+  }
+}
 @media (max-width: 1000px) {
   .nav {
     width: 0;
@@ -529,6 +559,11 @@ body {
 @media (max-width: 850px) {
   .footer {
     display: none;
+  }
+}
+@media (max-width: 700px) {
+  .form__in-create, .form__in-come {
+    font-size: 16px !important;
   }
 }
 .description .container {
@@ -569,8 +604,7 @@ body {
   transform: translate(-50%, -50%);
   width: 90vw;
   max-width: 630px;
-  max-height: 70vh;
-  aspect-ratio: 1/0.8;
+  max-height: 74vh;
   margin: 0 auto;
   padding: 40px 20px;
   border-radius: 20px;
@@ -592,7 +626,7 @@ body {
 
 .swiper-slide {
   width: 100%;
-  height: 100%;
+  height: 62vh;
   overflow-y: scroll;
   padding: 0 10%;
   font-family: "Source Serif Pro", sans-serif;
@@ -638,6 +672,11 @@ body {
   flex-wrap: wrap;
 }
 
+@media (max-width: 850px) {
+  .description__box {
+    transform: translate(-50%, -40%);
+  }
+}
 @media (max-width: 670px) {
   .footer {
     display: none;
@@ -646,4 +685,4 @@ body {
     height: 75vh;
     padding: 35px 12px;
   }
-}
+}/*# sourceMappingURL=main.css.map */
