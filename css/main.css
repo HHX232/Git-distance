@@ -385,6 +385,11 @@ body {
   margin-bottom: 18px;
 }
 
+.input__reg-box::before {
+  right: 7px !important;
+  width: 144px !important;
+}
+
 .heager__input-label, .heager__reg-label {
   font-size: 16px;
   color: #6F4A36;
@@ -401,6 +406,11 @@ body {
   padding: 5px 3px 3px 3px;
   align-items: center;
   font-size: 16px;
+}
+
+.header__form-reg {
+  max-width: 140px !important;
+  margin-right: 9px;
 }
 
 .form__in-create, .form__in-come, .form__reg-back, .form__reg-registration {
@@ -436,7 +446,6 @@ body {
 }
 
 .input__reg-box--input::before {
-  width: 154px !important;
   border-radius: 20px !important;
 }
 
