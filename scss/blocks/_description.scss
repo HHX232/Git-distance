@@ -32,7 +32,7 @@ margin-bottom: 5vh;
    top: 50%;
    transform: translate(-50%, -50%);
    width: 90vw;
-   max-width: 590px;
+   max-width: 630px;
    max-height: 70vh;
    aspect-ratio: 1/0.8; 
    margin: 0 auto;
@@ -62,6 +62,10 @@ margin-bottom: 10vh;
    overflow-y: scroll;
    padding: 0 10%;
    font-family: $font-main;
+}
+
+.swiper-button-next {
+   margin-right: 14px;
 }
 
 /* Scrollbar */
