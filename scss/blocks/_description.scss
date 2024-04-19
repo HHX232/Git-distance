@@ -63,6 +63,24 @@ margin-bottom: 10vh;
    padding: 0 10%;
    font-family: $font-main;
 }
+
+/* Scrollbar */
+
+.swiper-slide::-webkit-scrollbar {
+   width: 10px;
+ }
+.swiper-slide::-webkit-scrollbar-track {
+   background: $white;
+   border-radius: 10px;
+}
+.swiper-slide::-webkit-scrollbar-thumb {
+   background: $brown;
+   border: 2px solid $white;
+   border-radius: 10px;
+}
+.swiper-slide::-webkit-scrollbar-thumb:hover {
+   background: $brown;
+}
 .text__size{
    font-size: 17px;
 }

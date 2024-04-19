@@ -598,6 +598,26 @@ body {
   font-family: "Source Serif Pro", sans-serif;
 }
 
+/* Scrollbar */
+.swiper-slide::-webkit-scrollbar {
+  width: 10px;
+}
+
+.swiper-slide::-webkit-scrollbar-track {
+  background: #FEF7E9;
+  border-radius: 10px;
+}
+
+.swiper-slide::-webkit-scrollbar-thumb {
+  background: #6F4A36;
+  border: 2px solid #FEF7E9;
+  border-radius: 10px;
+}
+
+.swiper-slide::-webkit-scrollbar-thumb:hover {
+  background: #6F4A36;
+}
+
 .text__size {
   font-size: 17px;
 }
