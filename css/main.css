@@ -347,7 +347,6 @@ body {
   text-align: end;
   max-width: 225px;
   justify-content: right;
-  margin-bottom: 5px;
   gap: 5px;
   margin-bottom: 10px;
 }
@@ -435,6 +434,7 @@ body {
 
 .input__reg-box {
   justify-content: space-around !important;
+  margin-bottom: 5px;
 }
 
 .header__form-registr {
@@ -563,8 +563,13 @@ body {
 }
 
 .description__box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 90vw;
   max-width: 590px;
+  max-height: 70vh;
   aspect-ratio: 1/0.8;
   margin: 0 auto;
   padding: 40px 20px;
@@ -574,6 +579,7 @@ body {
   text-align: center;
   font-size: 18px;
   min-width: 350px !important;
+  margin-bottom: 10vh;
 }
 .description__box span {
   font-size: 20px;
