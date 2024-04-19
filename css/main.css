@@ -280,7 +280,6 @@ body {
   font-family: "Caveat Brush";
   color: #6F4A36;
   font-size: 12px;
-  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
 }
@@ -404,7 +403,6 @@ body {
 }
 
 .form__in-create, .form__in-come, .form__reg-back, .form__reg-registration {
-  max-width: -moz-fit-content;
   max-width: fit-content;
   border-radius: 15px;
   box-shadow: 0px 4px 10px 0px rgb(111, 74, 54);
@@ -508,9 +506,7 @@ body {
   gap: 5px;
   font-size: 18px;
   font-family: "Ruslan Display", serif;
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   pointer-events: all;
   opacity: 1;
@@ -627,7 +623,7 @@ body {
 .swiper-slide {
   width: 100%;
   height: 62vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 0 10%;
   font-family: "Source Serif Pro", sans-serif;
 }
@@ -685,4 +681,4 @@ body {
     height: 75vh;
     padding: 35px 12px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
