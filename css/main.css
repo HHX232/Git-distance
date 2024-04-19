@@ -413,6 +413,11 @@ body {
   margin-right: 9px;
 }
 
+.form__reg-registration, .form__reg-back {
+  font-size: 16px !important;
+  padding: 5px 10px !important;
+}
+
 .form__in-create, .form__in-come, .form__reg-back, .form__reg-registration {
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -441,8 +446,10 @@ body {
 }
 
 .capcha__box-img {
-  width: 207px;
-  height: 52px;
+  width: 204px;
+  height: 49px;
+  position: relative;
+  top: -3px;
 }
 
 .input__reg-box--input::before {
