@@ -173,10 +173,8 @@ body {
 
 .nav__list {
   display: flex;
-  gap: 17px;
   align-items: center;
   color: #F0DFC9;
-  justify-content: space-around;
   border-radius: 30px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
   background: rgb(240, 223, 201);
@@ -401,8 +399,8 @@ body {
 
 .input__reg-box::before {
   height: 24px !important;
-  right: 22px !important;
-  width: 126px !important;
+  right: 17px !important;
+  width: 131px !important;
 }
 
 .heager__input-label {
@@ -425,12 +423,12 @@ body {
   color: #6F4A36;
   padding: 5px 3px 3px 3px;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .header__form-reg {
-  max-width: 122px !important;
-  margin-right: 24px;
+  max-width: 127px !important;
+  margin-right: 19px;
   height: 20px !important;
 }
 .header__form-reg::before {
@@ -442,7 +440,7 @@ body {
   padding: 3px 10px !important;
 }
 
-.form__in-create {
+.form__in-create, .form__in-come {
   font-size: 14px !important;
 }
 
