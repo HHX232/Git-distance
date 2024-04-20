@@ -386,8 +386,8 @@ body {
 }
 
 .input__reg-box::before {
-  right: 7px !important;
-  width: 144px !important;
+  right: 16px !important;
+  width: 129px !important;
 }
 
 .heager__input-label, .heager__reg-label {
@@ -409,8 +409,8 @@ body {
 }
 
 .header__form-reg {
-  max-width: 140px !important;
-  margin-right: 9px;
+  max-width: 125px !important;
+  margin-right: 18px;
 }
 
 .form__reg-registration, .form__reg-back {
@@ -442,7 +442,7 @@ body {
 }
 
 .form__in-come, .form__reg-registration {
-  padding: 5px 17px;
+  padding: 5px 9px;
 }
 
 .capcha__box-img {
@@ -450,6 +450,12 @@ body {
   height: 49px;
   position: relative;
   top: -3px;
+}
+
+.capcha__box-img-little {
+  width: 198px;
+  height: 43px;
+  margin-bottom: 6px;
 }
 
 .input__reg-box--input::before {
@@ -478,7 +484,7 @@ body {
 .input__reg-box--battons {
   position: relative;
   left: 10px;
-  margin-bottom: 9px !important;
+  margin-bottom: 5px !important;
 }
 
 .languages__burger {
