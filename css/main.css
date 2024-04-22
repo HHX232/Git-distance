@@ -200,12 +200,18 @@ body {
   border-radius: 15px;
   font-family: "Ruslan Display", serif;
   box-shadow: 0px 4px 10px 0px rgb(111, 74, 54);
-  background: linear-gradient(180deg, rgb(213, 142, 104) -18%, rgb(111, 74, 54) 100%);
-  padding: 5px 13px 0 13px;
+  background: linear-gradient(270deg, rgb(213, 142, 104) -18%, rgb(111, 74, 54) 100%);
+  padding: 1px;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
-  position: relative;
-  overflow: visible;
-  z-index: 0;
+}
+
+.nav__list-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgb(213, 142, 104) -18%, rgb(111, 74, 54) 100%);
+  border-radius: 15px;
+  padding: 5px 13px 0 13px;
 }
 
 .nav__list-logo {
